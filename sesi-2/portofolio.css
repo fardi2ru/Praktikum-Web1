@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    
+}
+
+
+
+.header-container {
+    color:white;
+    background-color: rgb(66, 65, 62);
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.foto-container {
+    display: flex ;
+    padding: 30px;
+    background-color: antiquewhite;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.foto-item{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    align-items: center;
+
+}
+
+.caption {
+    font-size: 16px;
+    bottom: 100%;
+    transform: translateX(20%);
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    width: 70%;
+    font-weight: bold;
+    
+    
+}
+
+.biodata {
+    background-color:antiquewhite;
+    padding: 50px;
+    text-align: center;
+}
+
+.isi-biodata {
+    background-color: antiquewhite;
+    padding:10px ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.isi-biodata ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+
+    
+    
